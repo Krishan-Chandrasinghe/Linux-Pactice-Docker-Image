@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Server: PostgreSQL/16.1 (Ubuntu)
+Content-Type: application/json
+Connection: keep-alive
+
+{
+  "status": "connected",
+  "database": "production_db",
+  "port": 5432,
+  "active_connections": 12,
+  "max_connections": 100,
+  "latency_ms": 1.45
+}

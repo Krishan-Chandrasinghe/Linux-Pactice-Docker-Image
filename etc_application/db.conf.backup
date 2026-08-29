@@ -1,0 +1,6 @@
+database_host=localhost
+database_port=5432
+database_name=production_db
+max_connections=100
+timeout=30
+retry_attempts=3

@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: Python/3.12 http.server
+Content-Type: application/json
+
+{
+  "status": "UP",
+  "uptime": "14 days, 3 hours, 22 minutes",
+  "services": {
+    "database": "UP",
+    "cache_redis": "UP",
+    "storage": "UP"
+  },
+  "system_metrics": {
+    "cpu_usage": "14.2%",
+    "memory_usage": "62.8%",
+    "disk_free": "48.2 GB"
+  }
+}
